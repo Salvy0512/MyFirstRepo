@@ -26,19 +26,7 @@ public class UserInterface {
                 return Board.CELL_X;
             else if (scelta==2)
                 return Board.CELL_O;
-            System.out.println("Numero non valido: scegli 1 oppure 2");
         }
-    }
-    
-    /**
-     * @brief Mostra le istruzioni del gioco.
-     */
-    public void showIstructions(){
-        System.out.println("===ISTRUZIONI===");
-        System.out.println("Le caselle sono numerate da 1 a 9.");
-        System.out.println("Scegli una casella libera per inserire il simbolo.");
-        System.out.println("Vince chi allinea tre simboli uguali.");
-        
     }
     
     /**
