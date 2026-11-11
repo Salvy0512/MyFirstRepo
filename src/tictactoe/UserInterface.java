@@ -26,6 +26,7 @@ public class UserInterface {
                 return Board.CELL_X;
             else if (scelta==2)
                 return Board.CELL_O;
+            System.out.println("Scegli X o O");
         }
     }
     
