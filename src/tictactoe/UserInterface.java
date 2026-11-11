@@ -26,8 +26,15 @@ public class UserInterface {
                 return Board.CELL_X;
             else if (scelta==2)
                 return Board.CELL_O;
-            System.out.println("Scegli X o O");
+            System.out.println("inserire 1 o 2");
+
         }
+    }
+    
+    public void showIstructions(){
+        
+        System.out.println("è il tris, sai già le regole");
+        
     }
     
     /**
